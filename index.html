@@ -1,115 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Page</title>
-
+    <title>Mountain Escape - Ορεινές Εξορμήσεις</title>
     <style>
-        p {color: red;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 144%;
-            border: 2px solid powderblue;
-            padding: 10px;
-            margin: 30px;
-        }
-        h1 {color: blue;
+        body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 200%;
+            background-color: #dae6e6;
+        }
+        h1{
+           background-color: #17364a;
+           color:white;
+           text-align: center;
+           padding: 25px;
+           border: 2px solid #39766f;
         }
 
-        img {
-            width:70px;
-            height: 80px;
+        h2,h3,p{
+            text-align: center;
         }
 
         table{
-            border-spacing: 10px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid #39766f;
+            padding:10px;
         }
 
         th {
-            padding: 20px;
+            background-color: #17364a;
+            color: white;
         }
 
-        td{
-            padding-top: 10px;
-            padding-bottom: 20px;
-            padding-left: 30px;
-            padding-right: 40px;
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
         }
+
+        footer {
+            background-color: #17364a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #39766f;
+            margin-top: 30px;
+            }
 
     </style>
 </head>
 <body>
-    <h1>HEADING 1</h1>
-    <p>Paragraph 1</p>
-    <p>Paragraph 2</p>
-    <p>Paragraph 3</p>
-    <p>Paragraph 4</p>
-    <p>Paragraph 5</p>
-    <p>Paragraph 6</p>
-    <p>Paragraph 7</p>
-
-    <a href="https://www.google.com">Click Here</a><br>
-    <a href="https://www.google.com" target="_blank">Click Here - New Page</a><br>
-    <a href="https://www.google.com" target="_parent">Click Here - Parent</a><br>
-    <a href="https://www.google.com" target="_top">Click Here - Top</a><br>
-    <a href="https://www.google.com" target="_self">Click Here - Self</a><br><br>
-    <a href="https://www.google.com">
-        <img src="images/mountain-spot.jpg" alt="mountain view" >
-    </a>
-
-    <button>Button 1</button>
+    <h1>MOUNTAIN ESCAPE</h1>
+    <h3>Ανακαλύψτε τους ομορφότερους ορεινούς προορισμούς της Ελλάδας</h3>
+    <p>Καλώς ήρθατε στο Mountain Escape! Δημιουργούμε μοναδικές ταξιδιωτικές εμπειρίες για όσους 
+        αγαπούν τη φύση, την περιπέτεια και τις αυθεντικές αποδράσεις. 
+        Επιλέξτε τον αγαπημένο σας προορισμό και αφήστε τα υπόλοιπα σε εμάς.
+    </p>
+    <hr>
     <br>
+    <p style="text-align: center;">
+        <img src="images/mountain-spot.jpg"
+            alt="Mountain landscape with a beautiful lake"
+            width="600"
+            style="border: 4px solid #39766f;">
+    </p>
     <br>
+    <h2>Our Destinations — Οι προορισμοί μας</h2>
     <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
+        <li>Ζαγοροχώρια: Παραδοσιακά πέτρινα χωριά, γεφύρια και μοναδικά μονοπάτια.</li>
+        <li>Μέτσοβο: Ορεινή παράδοση, τοπικές γεύσεις και εντυπωσιακά τοπία.</li>
+        <li>Πήλιο: Ο συνδυασμός βουνού και θάλασσας σε έναν μαγευτικό προορισμό.</li>
+        <li>Καλάβρυτα: Ιστορία, φυσική ομορφιά και χειμερινές δραστηριότητες.</li>
+        <li>Καρπενήσι: Καταπράσινα δάση, ποτάμια και περιπέτεια στη φύση.</li>
     </ul>
-    <hr>
+    <br>
+    <h2>How to Book — Πώς να κλείσετε την εκδρομή σας</h2>
     <ol>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
+        <li>Επιλέξτε τον προορισμό που σας ενδιαφέρει.</li>
+        <li>Ελέγξτε τους διαθέσιμους μήνες αναχώρησης.</li>
+        <li>Επιλέξτε το ταξιδιωτικό πακέτο που σας ταιριάζει.</li>
+        <li>Επικοινωνήστε με το γραφείο μας για διαθεσιμότητα.</li>
+        <li>Επιβεβαιώστε την κράτησή σας και ετοιμαστείτε για την εκδρομή!</li>
     </ol>
-    <!--Unordered list: Λίστα χωρίς αρίθμηση -->
-    <!--Ordered list: Λίστα με αρίθμηση -->
 
-    <dl>
-        <dt>Coffee</dt>
-        <dd>Sweet</dd>
-        <dd>Brown Sugar</dd>
-        <dt>Milk</dt>
-        <dd>Chocolate Milk</dd>
-    </dl>
-    <hr>
-    <!--DL Description list -- Define term -- Describe term -->
+    <br>
+    <h2>Travel Packages — Τα ταξιδιωτικά μας πακέτα</h2>
     <table>
         <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-            <th>Employees</th>
+            <th>Προορισμός</th>
+            <th>Μήνες επίσκεψης</th>
+            <th>Διάρκεια</th>
+            <th>Τιμή/άτομο</th>
         </tr>
         <tr>
-            <td>Amazon</td>
-            <td>555-3221</td>
-            <td>USA</td>
-            <td>12000</td>
+            <td>Ζαγοροχώρια</td>
+            <td>Απρίλιος – Οκτώβριος</td>
+            <td>3 ημέρες</td>
+            <td>185€</td>
         </tr>
         <tr>
-            <td>Microsoft</td>
-            <td>555-4522</td>
-            <td>USA</td>
-            <td>35000</td>
-        </tr>
+            <td>Μέτσοβο</td>
+            <td>Νοέμβριος – Μάρτιος</td>
+            <td>2 ημέρες</td>
+            <td>125€</td>
+        </tr>      
         <tr>
-            <td>Shell</td>
-            <td>555-8876</td>
-            <td>USA</td>
-            <td>27500</td>
-        </tr>
+            <td>Πήλιο</td>
+            <td>Μάιος – Σεπτέμβριος</td>
+            <td>3 ημέρες</td>
+            <td>195€</td>
+        </tr> 
+        <tr>
+            <td>Καλάβρυτα</td>
+            <td>Δεκέμβριος – Φεβρουάριος</td>
+            <td>2 ημέρες</td>
+            <td>145€</td>
+        </tr> 
+        <tr>
+            <td>Καρπενήσι</td>
+            <td>Οκτώβριος – Απρίλιος</td>
+            <td>3 ημέρες</td>
+            <td>175€</td>
+        </tr>        
     </table>
+    <small>Οι τιμές περιλαμβάνουν μεταφορά και διαμονή. Για περισσότερες πληροφορίες επικοινωνήστε με το γραφείο μας.</small>
+    <hr>
+    <br>
+    <h2>Why Travel With Us — Γιατί να μας επιλέξετε</h2>
+    <p>Στο Mountain Escape πιστεύουμε ότι κάθε ταξίδι είναι μια ευκαιρία για <strong>νέες εμπειρίες.</strong> 
+        Προσφέρουμε οργανωμένες εξορμήσεις, προσεκτικά επιλεγμένους προορισμούς και 
+        προσωπική εξυπηρέτηση, ώστε να απολαμβάνετε κάθε στιγμή του ταξιδιού σας.
+    </p>
+
+
+    <footer style="text-align: center;">
+        <small>
+            © 2026 Mountain Escape
+            <br>
+            Developed by George Katopodis
+            <br>
+            Full Stack Development - HTML & CSS Fundamentals - Exercise 02
+        </small>
+    </footer>
 </body>
 </html>
+
+
+    <!--Unordered list: Λίστα χωρίς αρίθμηση -->
+    <!--Ordered list: Λίστα με αρίθμηση -->
+    <!--DL Description list -- Define term -- Describe term -->
+    
